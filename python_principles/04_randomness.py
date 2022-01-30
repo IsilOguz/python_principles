@@ -11,4 +11,4 @@ For example, calling random_number() some times might first return 42, then 63, 
 import random
 
 def random_number():
-    return random.randint(1,100)
+    return random.randint(1,100) 
