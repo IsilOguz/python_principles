@@ -1,0 +1,5 @@
+{'costumerNum': 93605, 'name': 'dew', 'surname': 'fwe', 'phone': 'efw', 'balance': 42344}
+{'costumerNum': 89490, 'name': 'x', 'surname': 'y', 'phone': 'z', 'balance': 60000}
+{'costumerNum': 73569, 'name': 'Zeynep', 'surname': 'Çok', 'phone': '60000', 'balance': 700000}
+{"costumerNum": 100, "name": "Elif", "surname": "Ak", "phone": "123456", "balance": 10000}
+{"costumerNum": 101, "name": "Ali", "surname": "Al", "phone": "123456", "balance": 20000}
