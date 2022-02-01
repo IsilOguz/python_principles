@@ -9,3 +9,13 @@ Define a function named consecutive_zeros that takes a single parameter,
 which is the string of zeros and ones. Your function should return the 
 number described above.
 """
+text = "1001101000110"
+
+def consecutive_zeros(a):
+    zeroList = a.split("1")
+    lenList = []
+    for i in zeroList:
+        lenList.append(len(i))
+    return max(lenList)    
+
+    
