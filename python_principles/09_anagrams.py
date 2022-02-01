@@ -9,13 +9,10 @@ For example, the call is_anagram("typhoon", "opython") should return True while
 the call is_anagram("Alice", "Bob") should return False.
 """
 
-
 def is_anagram(a,b):
-    letter1 = ""
-    for j in b:
-        letter1 = j
-    for i in a :
-        if i == letter1:
-            return True
-    return False
-print (is_anagram("tkgout","test"))
+    list1 = list(a)    
+    list2 = list(b)
+    list1.sort()
+    list2.sort()
+    return list1 == list2
+
