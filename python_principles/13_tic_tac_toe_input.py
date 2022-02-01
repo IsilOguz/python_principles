@@ -24,3 +24,11 @@ to a tuple (row, column). Name your function get_row_col; it should take a
 For example, calling get_row_col("A3") should return the tuple (2, 0) because
  A3 corresponds to the row at index 2 and column at index 0in the board.
 """
+
+def get_row_col(choice):
+    translate = {"A": 0, "B": 1, "C": 2}
+    letter = choice[0]
+    number = choice[1]
+    row = int(number) - 1
+    column = translate[letter]
+    return (row, column)
