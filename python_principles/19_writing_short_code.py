@@ -12,3 +12,8 @@ def convert(a):
     for i in a:
         newList.append(str(i))
     return newList
+
+# short
+
+def convert(a):
+    return list(map(str,a))
