@@ -17,3 +17,8 @@ def convert(a):
 
 def convert(a):
     return list(map(str,a))
+
+# or
+
+def convert(ns):
+    return [str(n) for n in ns]
