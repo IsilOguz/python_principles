@@ -14,11 +14,12 @@ def convert(a):
     return newList
 
 # short
+# using map
 
 def convert(a):
     return list(map(str,a))
 
 # or
-
+# not using map
 def convert(ns):
     return [str(n) for n in ns]
