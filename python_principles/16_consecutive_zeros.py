@@ -16,6 +16,8 @@ def consecutive_zeros(a):
     lenList = []
     for i in zeroList:
         lenList.append(len(i))
-    return max(lenList)    
+    return max(lenList) 
+
+
 
     
