@@ -7,5 +7,8 @@ What makes this tricky is that your function body must only contain a
 single line of code.
 """
 
-def converter():
-    pass
+def convert(a):
+    newList = []
+    for i in a:
+        newList.append(str(i))
+    return newList
